@@ -1,1 +1,21 @@
 hello:hello spring-cloud-config-client-dev.yml
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+#          uri: https://github.com/forezp/SpringcloudConfig/
+          uri: https://github.com/lichuang7773678/springcloudconfig-test
+#          配置Git仓库位置
+          searchPaths:
+          # github的文件路径
+#          username:
+##          访问Git仓库的用户名
+#          password:
+##          访问Git仓库的用户名密码
+      # github的分支，默认是master
+      label: master
+server:
+  port: 8081
