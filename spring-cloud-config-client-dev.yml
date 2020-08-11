@@ -6,12 +6,8 @@ spring:
     config:
       server:
         git:
-#          uri: https://github.com/forezp/SpringcloudConfig/
           uri: https://github.com/lichuang7773678/springcloudconfig-test
           searchPaths:
-
-#          username:
-#          password:
       label: master
 server:
   port: 8081
