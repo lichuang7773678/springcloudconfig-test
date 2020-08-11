@@ -1,13 +1,4 @@
 hello:hello spring-cloud-config-client-dev.yml
-spring:
-  application:
-    name: config-server
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/lichuang7773678/springcloudconfig-test
-          searchPaths:
-      label: master
-server:
-  port: 8081
+name:lichuang
+age:18
+sex:nan
