@@ -1,4 +1,4 @@
-hello:hello spring-cloud-config-client-dev.yml
-name:lichuang
-age:18
-sex:nan
+hello: hello spring-cloud-config-client-dev.yml
+name: lichuang
+age: 18
+sex: nan
